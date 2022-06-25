@@ -1,0 +1,51 @@
+body {
+  font-family: "Pop";
+}
+
+.wapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1210px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header {
+  padding-top: 4rem;
+}
+.header_inneer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.header .csws {
+  color: red;
+}
+.header_menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.header_menu-list_item {
+  margin-left: 5rem;
+}
+.header_menu:last-child {
+  margin-left: 7rem;
+}
+.header_menu-link {
+  font-size: 1.6rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
